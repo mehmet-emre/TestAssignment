@@ -1,0 +1,339 @@
+Oct 26,2014 11:59:59.340 ERROR [main] (Server.java:24) - Server initialization error: / by zero
+Oct 26,2014 12:00:37.478 ERROR [main] (Server.java:24) - Server initialization error: / by zero
+Oct 26,2014 12:03:14.985 ERROR [main] (Server.java:21) - Server initialization error: / by zero
+Oct 26,2014 12:16:31.369  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:13) - IN-Emre(1:1.0)
+Oct 26,2014 12:16:31.466  INFO [pool-1-thread-1] (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11eb06c3: startup date [Sun Oct 26 12:16:31 EET 2014]; root of context hierarchy
+Oct 26,2014 12:16:31.544  INFO [pool-1-thread-1] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [applicationContext.xml]
+Oct 26,2014 12:16:31.996  INFO [pool-1-thread-1] (DriverManagerDataSource.java:153) - Loaded JDBC driver: org.hsqldb.jdbcDriver
+Oct 26,2014 12:16:32.043  INFO [pool-1-thread-1] (LocalContainerEntityManagerFactoryBean.java:285) - Building JPA container EntityManagerFactory for persistence unit 'jpaData'
+Oct 26,2014 12:16:32.278  INFO [pool-1-thread-1] (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Oct 26,2014 12:16:32.278  INFO [pool-1-thread-1] (Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+Oct 26,2014 12:16:32.278  INFO [pool-1-thread-1] (Environment.java:239) - HHH000206: hibernate.properties not found
+Oct 26,2014 12:16:32.294  INFO [pool-1-thread-1] (Environment.java:342) - HHH000021: Bytecode provider name : javassist
+Oct 26,2014 12:16:32.309  INFO [pool-1-thread-1] (Ejb3Configuration.java:528) - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaData
+	...]
+Oct 26,2014 12:16:32.530  INFO [pool-1-thread-1] (ConnectionProviderInitiator.java:188) - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Oct 26,2014 12:16:32.891  INFO [pool-1-thread-1] (Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+Oct 26,2014 12:16:32.937  INFO [pool-1-thread-1] (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Oct 26,2014 12:16:32.937  INFO [pool-1-thread-1] (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+Oct 26,2014 12:16:33.166  INFO [pool-1-thread-1] (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+Oct 26,2014 12:16:33.166  INFO [pool-1-thread-1] (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+Oct 26,2014 12:16:33.358  INFO [pool-1-thread-1] (SchemaUpdate.java:205) - HHH000396: Updating schema
+Oct 26,2014 12:16:33.497  INFO [pool-1-thread-1] (TableMetadata.java:65) - HHH000261: Table found: PUBLIC.PUBLIC.PLAYER
+Oct 26,2014 12:16:33.497  INFO [pool-1-thread-1] (TableMetadata.java:66) - HHH000037: Columns: [balance, username, balance_version]
+Oct 26,2014 12:16:33.497  INFO [pool-1-thread-1] (TableMetadata.java:68) - HHH000108: Foreign keys: []
+Oct 26,2014 12:16:33.498  INFO [pool-1-thread-1] (TableMetadata.java:69) - HHH000126: Indexes: [sys_idx_sys_pk_10499_10500]
+Oct 26,2014 12:16:33.499  INFO [pool-1-thread-1] (SchemaUpdate.java:240) - HHH000232: Schema update complete
+Oct 26,2014 12:16:33.532  INFO [pool-1-thread-1] (DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@49c7971a: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,playerDao,dataSource,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Oct 26,2014 12:16:34.207  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - OUT-Emre(1:Username is invalid:-1:1.0:-1)
+Oct 26,2014 12:16:34.316  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:13) - IN-PLAYER_A(1:50.0)
+Oct 26,2014 12:16:36.235  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - OUT-PLAYER_A(1:Operation has been successfully done:6:50.0:115.0)
+Oct 26,2014 12:16:36.235  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:13) - IN-PLAYER_B(1:-1000.0)
+Oct 26,2014 12:16:36.747  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - OUT-PLAYER_B(1:There is not enough money in players balance:2:-1000.0:150.25)
+Oct 26,2014 12:17:38.261  INFO [pool-1-thread-2] (WalletServiceEndpoint.java:13) - IN-Emre(1:1.0)
+Oct 26,2014 12:17:38.489  INFO [pool-1-thread-2] (WalletServiceEndpoint.java:15) - OUT-Emre(1:Username is invalid:-1:1.0:-1)
+Oct 26,2014 12:17:38.505  INFO [pool-1-thread-2] (WalletServiceEndpoint.java:13) - IN-PLAYER_A(1:50.0)
+Oct 26,2014 12:17:38.817  INFO [pool-1-thread-2] (WalletServiceEndpoint.java:15) - OUT-PLAYER_A(1:Operation has been successfully done:7:50.0:165.0)
+Oct 26,2014 12:17:38.817  INFO [pool-1-thread-2] (WalletServiceEndpoint.java:13) - IN-PLAYER_B(1:-1000.0)
+Oct 26,2014 12:17:38.926  INFO [pool-1-thread-2] (WalletServiceEndpoint.java:15) - OUT-PLAYER_B(1:There is not enough money in players balance:2:-1000.0:150.25)
+Oct 26,2014 12:19:41.780  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:13) - IN-Emre(1:1.0)
+Oct 26,2014 12:19:41.875  INFO [pool-1-thread-1] (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11eb06c3: startup date [Sun Oct 26 12:19:41 EET 2014]; root of context hierarchy
+Oct 26,2014 12:19:41.953  INFO [pool-1-thread-1] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [applicationContext.xml]
+Oct 26,2014 12:19:42.327  INFO [pool-1-thread-1] (DriverManagerDataSource.java:153) - Loaded JDBC driver: org.hsqldb.jdbcDriver
+Oct 26,2014 12:19:42.374  INFO [pool-1-thread-1] (LocalContainerEntityManagerFactoryBean.java:285) - Building JPA container EntityManagerFactory for persistence unit 'jpaData'
+Oct 26,2014 12:19:42.572  INFO [pool-1-thread-1] (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Oct 26,2014 12:19:42.572  INFO [pool-1-thread-1] (Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+Oct 26,2014 12:19:42.572  INFO [pool-1-thread-1] (Environment.java:239) - HHH000206: hibernate.properties not found
+Oct 26,2014 12:19:42.572  INFO [pool-1-thread-1] (Environment.java:342) - HHH000021: Bytecode provider name : javassist
+Oct 26,2014 12:19:42.603  INFO [pool-1-thread-1] (Ejb3Configuration.java:528) - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaData
+	...]
+Oct 26,2014 12:19:42.790  INFO [pool-1-thread-1] (ConnectionProviderInitiator.java:188) - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Oct 26,2014 12:19:42.978  INFO [pool-1-thread-1] (Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+Oct 26,2014 12:19:43.009  INFO [pool-1-thread-1] (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Oct 26,2014 12:19:43.009  INFO [pool-1-thread-1] (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+Oct 26,2014 12:19:43.197  INFO [pool-1-thread-1] (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+Oct 26,2014 12:19:43.197  INFO [pool-1-thread-1] (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+Oct 26,2014 12:19:43.306  INFO [pool-1-thread-1] (SchemaUpdate.java:205) - HHH000396: Updating schema
+Oct 26,2014 12:19:43.399  INFO [pool-1-thread-1] (TableMetadata.java:65) - HHH000261: Table found: PUBLIC.PUBLIC.PLAYER
+Oct 26,2014 12:19:43.399  INFO [pool-1-thread-1] (TableMetadata.java:66) - HHH000037: Columns: [balance, username, balance_version]
+Oct 26,2014 12:19:43.399  INFO [pool-1-thread-1] (TableMetadata.java:68) - HHH000108: Foreign keys: []
+Oct 26,2014 12:19:43.399  INFO [pool-1-thread-1] (TableMetadata.java:69) - HHH000126: Indexes: [sys_idx_sys_pk_10499_10500]
+Oct 26,2014 12:19:43.399  INFO [pool-1-thread-1] (SchemaUpdate.java:240) - HHH000232: Schema update complete
+Oct 26,2014 12:19:43.431  INFO [pool-1-thread-1] (DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4cb840d2: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,playerDao,dataSource,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Oct 26,2014 12:19:43.855  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - OUT-Emre(1:Username is invalid:-1:1.0:-1)
+Oct 26,2014 12:19:47.128  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:13) - IN-PLAYER_A(1:50.0)
+Oct 26,2014 12:19:47.493  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - OUT-PLAYER_A(1:Operation has been successfully done:9:50.0:265.0)
+Oct 26,2014 12:19:52.353  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:13) - IN-PLAYER_B(1:-1000.0)
+Oct 26,2014 12:19:52.467  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - OUT-PLAYER_B(1:There is not enough money in players balance:2:-1000.0:150.25)
+Oct 26,2014 12:19:57.765  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:13) - IN-Emre(1:1.0)
+Oct 26,2014 12:19:57.890  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - OUT-Emre(1:Username is invalid:-1:1.0:-1)
+Oct 26,2014 12:19:57.906  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:13) - IN-PLAYER_A(1:50.0)
+Oct 26,2014 12:19:58.234  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - OUT-PLAYER_A(1:Operation has been successfully done:10:50.0:315.0)
+Oct 26,2014 12:19:58.234  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:13) - IN-PLAYER_B(1:-1000.0)
+Oct 26,2014 12:19:58.358  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - OUT-PLAYER_B(1:There is not enough money in players balance:2:-1000.0:150.25)
+Oct 26,2014 12:32:49.205  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - IN-Emre(1:1.0)
+Oct 26,2014 12:32:49.305  INFO [pool-1-thread-1] (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@30b4aa06: startup date [Sun Oct 26 12:32:49 EET 2014]; root of context hierarchy
+Oct 26,2014 12:32:49.392  INFO [pool-1-thread-1] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [applicationContext.xml]
+Oct 26,2014 12:32:49.766  INFO [pool-1-thread-1] (DriverManagerDataSource.java:153) - Loaded JDBC driver: org.hsqldb.jdbcDriver
+Oct 26,2014 12:32:49.812  INFO [pool-1-thread-1] (LocalContainerEntityManagerFactoryBean.java:285) - Building JPA container EntityManagerFactory for persistence unit 'jpaData'
+Oct 26,2014 12:32:50.000  INFO [pool-1-thread-1] (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Oct 26,2014 12:32:50.005  INFO [pool-1-thread-1] (Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+Oct 26,2014 12:32:50.007  INFO [pool-1-thread-1] (Environment.java:239) - HHH000206: hibernate.properties not found
+Oct 26,2014 12:32:50.009  INFO [pool-1-thread-1] (Environment.java:342) - HHH000021: Bytecode provider name : javassist
+Oct 26,2014 12:32:50.030  INFO [pool-1-thread-1] (Ejb3Configuration.java:528) - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaData
+	...]
+Oct 26,2014 12:32:50.224  INFO [pool-1-thread-1] (ConnectionProviderInitiator.java:188) - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Oct 26,2014 12:32:50.434  INFO [pool-1-thread-1] (Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+Oct 26,2014 12:32:50.464  INFO [pool-1-thread-1] (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Oct 26,2014 12:32:50.470  INFO [pool-1-thread-1] (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+Oct 26,2014 12:32:50.676  INFO [pool-1-thread-1] (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+Oct 26,2014 12:32:50.676  INFO [pool-1-thread-1] (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+Oct 26,2014 12:32:50.800  INFO [pool-1-thread-1] (SchemaUpdate.java:205) - HHH000396: Updating schema
+Oct 26,2014 12:32:50.911  INFO [pool-1-thread-1] (TableMetadata.java:65) - HHH000261: Table found: PUBLIC.PUBLIC.PLAYER
+Oct 26,2014 12:32:50.912  INFO [pool-1-thread-1] (TableMetadata.java:66) - HHH000037: Columns: [balance, username, balance_version]
+Oct 26,2014 12:32:50.912  INFO [pool-1-thread-1] (TableMetadata.java:68) - HHH000108: Foreign keys: []
+Oct 26,2014 12:32:50.913  INFO [pool-1-thread-1] (TableMetadata.java:69) - HHH000126: Indexes: [sys_idx_sys_pk_10499_10500]
+Oct 26,2014 12:32:50.914  INFO [pool-1-thread-1] (SchemaUpdate.java:240) - HHH000232: Schema update complete
+Oct 26,2014 12:32:50.951  INFO [pool-1-thread-1] (DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@26919207: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,playerDao,dataSource,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Oct 26,2014 12:32:51.404  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:19) - Query with TransactionId: 1 is completed in 2196miliseconds
+Oct 26,2014 12:32:51.405  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - OUT-Emre(1:Username is invalid:-1:1.0:-1)
+Oct 26,2014 12:32:51.418  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - IN-PLAYER_A(1:50.0)
+Oct 26,2014 12:32:52.407  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:19) - Query with TransactionId: 1 is completed in 988miliseconds
+Oct 26,2014 12:32:52.407  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - OUT-PLAYER_A(1:Operation has been successfully done:11:50.0:365.0)
+Oct 26,2014 12:32:52.412  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - IN-PLAYER_B(1:-1000.0)
+Oct 26,2014 12:32:52.518  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:19) - Query with TransactionId: 1 is completed in 106miliseconds
+Oct 26,2014 12:32:52.518  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - OUT-PLAYER_B(1:There is not enough money in players balance:2:-1000.0:150.25)
+Oct 26,2014 12:33:51.245  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - IN-Emre(1:1.0)
+Oct 26,2014 12:33:51.352  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:19) - Query with TransactionId: 1 is completed in 107miliseconds
+Oct 26,2014 12:33:51.352  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - OUT-Emre(1:Username is invalid:-1:1.0:-1)
+Oct 26,2014 12:33:51.361  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - IN-PLAYER_A(1:50.0)
+Oct 26,2014 12:33:51.694  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:19) - Query with TransactionId: 1 is completed in 333miliseconds
+Oct 26,2014 12:33:51.694  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - OUT-PLAYER_A(1:Operation has been successfully done:12:50.0:415.0)
+Oct 26,2014 12:33:51.698  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:15) - IN-PLAYER_B(1:-1000.0)
+Oct 26,2014 12:33:51.803  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:19) - Query with TransactionId: 1 is completed in 105miliseconds
+Oct 26,2014 12:33:51.804  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - OUT-PLAYER_B(1:There is not enough money in players balance:2:-1000.0:150.25)
+Oct 26,2014 13:27:18.791  INFO [Thread-3] (Server.java:51) - Number of Processed Queries:0
+Oct 26,2014 13:27:18.791  INFO [Thread-3] (Server.java:52) - Minimum Query Time:0miliseconds
+Oct 26,2014 13:27:18.791  INFO [Thread-3] (Server.java:53) - Maximum Query Time::0miliseconds
+Oct 26,2014 13:27:18.791  INFO [Thread-3] (Server.java:54) - Average Query Time::0miliseconds
+Oct 26,2014 13:27:43.415  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-Emre(1:1.0)
+Oct 26,2014 13:27:43.525  INFO [pool-1-thread-1] (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@ace3c1b: startup date [Sun Oct 26 13:27:43 EET 2014]; root of context hierarchy
+Oct 26,2014 13:27:43.634  INFO [pool-1-thread-1] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [applicationContext.xml]
+Oct 26,2014 13:27:44.040  INFO [pool-1-thread-1] (DriverManagerDataSource.java:153) - Loaded JDBC driver: org.hsqldb.jdbcDriver
+Oct 26,2014 13:27:44.086  INFO [pool-1-thread-1] (LocalContainerEntityManagerFactoryBean.java:285) - Building JPA container EntityManagerFactory for persistence unit 'jpaData'
+Oct 26,2014 13:27:44.274  INFO [pool-1-thread-1] (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Oct 26,2014 13:27:44.289  INFO [pool-1-thread-1] (Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+Oct 26,2014 13:27:44.289  INFO [pool-1-thread-1] (Environment.java:239) - HHH000206: hibernate.properties not found
+Oct 26,2014 13:27:44.289  INFO [pool-1-thread-1] (Environment.java:342) - HHH000021: Bytecode provider name : javassist
+Oct 26,2014 13:27:44.305  INFO [pool-1-thread-1] (Ejb3Configuration.java:528) - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaData
+	...]
+Oct 26,2014 13:27:44.523  INFO [pool-1-thread-1] (ConnectionProviderInitiator.java:188) - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Oct 26,2014 13:27:44.711  INFO [pool-1-thread-1] (Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+Oct 26,2014 13:27:44.743  INFO [pool-1-thread-1] (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Oct 26,2014 13:27:44.758  INFO [pool-1-thread-1] (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+Oct 26,2014 13:27:44.961  INFO [pool-1-thread-1] (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+Oct 26,2014 13:27:44.961  INFO [pool-1-thread-1] (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+Oct 26,2014 13:27:45.070  INFO [pool-1-thread-1] (SchemaUpdate.java:205) - HHH000396: Updating schema
+Oct 26,2014 13:27:45.433  INFO [pool-1-thread-1] (TableMetadata.java:65) - HHH000261: Table found: PUBLIC.PUBLIC.PLAYER
+Oct 26,2014 13:27:45.433  INFO [pool-1-thread-1] (TableMetadata.java:66) - HHH000037: Columns: [balance, username, balance_version]
+Oct 26,2014 13:27:45.433  INFO [pool-1-thread-1] (TableMetadata.java:68) - HHH000108: Foreign keys: []
+Oct 26,2014 13:27:45.433  INFO [pool-1-thread-1] (TableMetadata.java:69) - HHH000126: Indexes: [sys_idx_sys_pk_10499_10500]
+Oct 26,2014 13:27:45.433  INFO [pool-1-thread-1] (SchemaUpdate.java:240) - HHH000232: Schema update complete
+Oct 26,2014 13:27:45.465  INFO [pool-1-thread-1] (DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@720ade7a: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,playerDao,dataSource,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Oct 26,2014 13:29:47.527  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-Emre(1:1.0)
+Oct 26,2014 13:29:47.621  INFO [pool-1-thread-1] (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61284cb6: startup date [Sun Oct 26 13:29:47 EET 2014]; root of context hierarchy
+Oct 26,2014 13:29:47.718  INFO [pool-1-thread-1] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [applicationContext.xml]
+Oct 26,2014 13:29:48.054  INFO [pool-1-thread-1] (DriverManagerDataSource.java:153) - Loaded JDBC driver: org.hsqldb.jdbcDriver
+Oct 26,2014 13:29:48.117  INFO [pool-1-thread-1] (LocalContainerEntityManagerFactoryBean.java:285) - Building JPA container EntityManagerFactory for persistence unit 'jpaData'
+Oct 26,2014 13:29:48.302  INFO [pool-1-thread-1] (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Oct 26,2014 13:29:48.317  INFO [pool-1-thread-1] (Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+Oct 26,2014 13:29:48.317  INFO [pool-1-thread-1] (Environment.java:239) - HHH000206: hibernate.properties not found
+Oct 26,2014 13:29:48.317  INFO [pool-1-thread-1] (Environment.java:342) - HHH000021: Bytecode provider name : javassist
+Oct 26,2014 13:29:48.333  INFO [pool-1-thread-1] (Ejb3Configuration.java:528) - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaData
+	...]
+Oct 26,2014 13:29:48.536  INFO [pool-1-thread-1] (ConnectionProviderInitiator.java:188) - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Oct 26,2014 13:29:48.725  INFO [pool-1-thread-1] (Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+Oct 26,2014 13:29:48.740  INFO [pool-1-thread-1] (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Oct 26,2014 13:29:48.756  INFO [pool-1-thread-1] (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+Oct 26,2014 13:29:48.945  INFO [pool-1-thread-1] (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+Oct 26,2014 13:29:48.945  INFO [pool-1-thread-1] (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+Oct 26,2014 13:29:49.086  INFO [pool-1-thread-1] (SchemaUpdate.java:205) - HHH000396: Updating schema
+Oct 26,2014 13:29:49.273  INFO [pool-1-thread-1] (TableMetadata.java:65) - HHH000261: Table found: PUBLIC.PUBLIC.PLAYER
+Oct 26,2014 13:29:49.273  INFO [pool-1-thread-1] (TableMetadata.java:66) - HHH000037: Columns: [balance, username, balance_version]
+Oct 26,2014 13:29:49.273  INFO [pool-1-thread-1] (TableMetadata.java:68) - HHH000108: Foreign keys: []
+Oct 26,2014 13:29:49.273  INFO [pool-1-thread-1] (TableMetadata.java:69) - HHH000126: Indexes: [sys_idx_sys_pk_10499_10500]
+Oct 26,2014 13:29:49.288  INFO [pool-1-thread-1] (SchemaUpdate.java:240) - HHH000232: Schema update complete
+Oct 26,2014 13:29:49.320  INFO [pool-1-thread-1] (DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2f9312a2: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,playerDao,dataSource,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Oct 26,2014 13:29:49.741  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - Query with TransactionId: 1 is completed in 2214miliseconds
+Oct 26,2014 13:29:49.741  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:22) - OUT-Emre(1:Username is invalid:-1:1.0:-1)
+Oct 26,2014 13:29:49.757  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-PLAYER_A(1:50.0)
+Oct 26,2014 13:29:50.134  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - Query with TransactionId: 1 is completed in 377miliseconds
+Oct 26,2014 13:29:50.134  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:22) - OUT-PLAYER_A(1:Operation has been successfully done:13:50.0:465.0)
+Oct 26,2014 13:29:50.134  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-PLAYER_B(1:-1000.0)
+Oct 26,2014 13:29:50.269  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - Query with TransactionId: 1 is completed in 135miliseconds
+Oct 26,2014 13:29:50.269  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:22) - OUT-PLAYER_B(1:There is not enough money in players balance:2:-1000.0:150.25)
+Oct 26,2014 13:30:34.216  INFO [Thread-3] (Server.java:51) - Number of Processed Queries:3
+Oct 26,2014 13:30:34.216  INFO [Thread-3] (Server.java:52) - Minimum Query Time:0miliseconds
+Oct 26,2014 13:30:34.216  INFO [Thread-3] (Server.java:53) - Maximum Query Time::2214miliseconds
+Oct 26,2014 13:30:34.216  INFO [Thread-3] (Server.java:54) - Average Query Time::908miliseconds
+Oct 26,2014 13:31:25.138  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-Emre(1:1.0)
+Oct 26,2014 13:31:25.248  INFO [pool-1-thread-1] (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe633e4: startup date [Sun Oct 26 13:31:25 EET 2014]; root of context hierarchy
+Oct 26,2014 13:31:25.326  INFO [pool-1-thread-1] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [applicationContext.xml]
+Oct 26,2014 13:31:25.669  INFO [pool-1-thread-1] (DriverManagerDataSource.java:153) - Loaded JDBC driver: org.hsqldb.jdbcDriver
+Oct 26,2014 13:31:25.716  INFO [pool-1-thread-1] (LocalContainerEntityManagerFactoryBean.java:285) - Building JPA container EntityManagerFactory for persistence unit 'jpaData'
+Oct 26,2014 13:31:25.905  INFO [pool-1-thread-1] (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Oct 26,2014 13:31:25.905  INFO [pool-1-thread-1] (Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+Oct 26,2014 13:31:25.905  INFO [pool-1-thread-1] (Environment.java:239) - HHH000206: hibernate.properties not found
+Oct 26,2014 13:31:25.905  INFO [pool-1-thread-1] (Environment.java:342) - HHH000021: Bytecode provider name : javassist
+Oct 26,2014 13:31:25.937  INFO [pool-1-thread-1] (Ejb3Configuration.java:528) - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaData
+	...]
+Oct 26,2014 13:31:26.140  INFO [pool-1-thread-1] (ConnectionProviderInitiator.java:188) - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Oct 26,2014 13:31:26.359  INFO [pool-1-thread-1] (Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+Oct 26,2014 13:31:26.390  INFO [pool-1-thread-1] (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Oct 26,2014 13:31:26.391  INFO [pool-1-thread-1] (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+Oct 26,2014 13:31:26.578  INFO [pool-1-thread-1] (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+Oct 26,2014 13:31:26.578  INFO [pool-1-thread-1] (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+Oct 26,2014 13:31:26.703  INFO [pool-1-thread-1] (SchemaUpdate.java:205) - HHH000396: Updating schema
+Oct 26,2014 13:31:26.884  INFO [pool-1-thread-1] (TableMetadata.java:65) - HHH000261: Table found: PUBLIC.PUBLIC.PLAYER
+Oct 26,2014 13:31:26.884  INFO [pool-1-thread-1] (TableMetadata.java:66) - HHH000037: Columns: [balance, username, balance_version]
+Oct 26,2014 13:31:26.884  INFO [pool-1-thread-1] (TableMetadata.java:68) - HHH000108: Foreign keys: []
+Oct 26,2014 13:31:26.884  INFO [pool-1-thread-1] (TableMetadata.java:69) - HHH000126: Indexes: [sys_idx_sys_pk_10499_10500]
+Oct 26,2014 13:31:26.884  INFO [pool-1-thread-1] (SchemaUpdate.java:240) - HHH000232: Schema update complete
+Oct 26,2014 13:31:26.915  INFO [pool-1-thread-1] (DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5855207d: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,playerDao,dataSource,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Oct 26,2014 13:31:27.355  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - Query with TransactionId: 1 is completed in 2201miliseconds
+Oct 26,2014 13:31:27.355  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:22) - OUT-Emre(1:Username is invalid:-1:1.0:-1)
+Oct 26,2014 13:31:27.370  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-PLAYER_A(1:50.0)
+Oct 26,2014 13:31:27.714  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - Query with TransactionId: 1 is completed in 344miliseconds
+Oct 26,2014 13:31:27.714  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:22) - OUT-PLAYER_A(1:Operation has been successfully done:14:50.0:515.0)
+Oct 26,2014 13:31:27.714  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-PLAYER_B(1:-1000.0)
+Oct 26,2014 13:31:27.839  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - Query with TransactionId: 1 is completed in 125miliseconds
+Oct 26,2014 13:31:27.839  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:22) - OUT-PLAYER_B(1:There is not enough money in players balance:2:-1000.0:150.25)
+Oct 26,2014 13:32:13.307  INFO [Thread-3] (Server.java:51) - Number of Processed Queries:3
+Oct 26,2014 13:32:13.307  INFO [Thread-3] (Server.java:52) - Minimum Query Time:125miliseconds
+Oct 26,2014 13:32:13.308  INFO [Thread-3] (Server.java:53) - Maximum Query Time::0miliseconds
+Oct 26,2014 13:32:13.308  INFO [Thread-3] (Server.java:54) - Average Query Time::889miliseconds
+Oct 26,2014 13:32:51.019  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-Emre(1:1.0)
+Oct 26,2014 13:32:51.115  INFO [pool-1-thread-1] (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61284cb6: startup date [Sun Oct 26 13:32:51 EET 2014]; root of context hierarchy
+Oct 26,2014 13:32:51.208  INFO [pool-1-thread-1] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [applicationContext.xml]
+Oct 26,2014 13:32:51.583  INFO [pool-1-thread-1] (DriverManagerDataSource.java:153) - Loaded JDBC driver: org.hsqldb.jdbcDriver
+Oct 26,2014 13:32:51.633  INFO [pool-1-thread-1] (LocalContainerEntityManagerFactoryBean.java:285) - Building JPA container EntityManagerFactory for persistence unit 'jpaData'
+Oct 26,2014 13:32:51.804  INFO [pool-1-thread-1] (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Oct 26,2014 13:32:51.804  INFO [pool-1-thread-1] (Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+Oct 26,2014 13:32:51.804  INFO [pool-1-thread-1] (Environment.java:239) - HHH000206: hibernate.properties not found
+Oct 26,2014 13:32:51.804  INFO [pool-1-thread-1] (Environment.java:342) - HHH000021: Bytecode provider name : javassist
+Oct 26,2014 13:32:51.836  INFO [pool-1-thread-1] (Ejb3Configuration.java:528) - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaData
+	...]
+Oct 26,2014 13:32:52.038  INFO [pool-1-thread-1] (ConnectionProviderInitiator.java:188) - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Oct 26,2014 13:32:52.274  INFO [pool-1-thread-1] (Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+Oct 26,2014 13:32:52.306  INFO [pool-1-thread-1] (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Oct 26,2014 13:32:52.306  INFO [pool-1-thread-1] (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+Oct 26,2014 13:32:52.508  INFO [pool-1-thread-1] (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+Oct 26,2014 13:32:52.508  INFO [pool-1-thread-1] (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+Oct 26,2014 13:32:52.649  INFO [pool-1-thread-1] (SchemaUpdate.java:205) - HHH000396: Updating schema
+Oct 26,2014 13:32:52.758  INFO [pool-1-thread-1] (TableMetadata.java:65) - HHH000261: Table found: PUBLIC.PUBLIC.PLAYER
+Oct 26,2014 13:32:52.758  INFO [pool-1-thread-1] (TableMetadata.java:66) - HHH000037: Columns: [balance, username, balance_version]
+Oct 26,2014 13:32:52.758  INFO [pool-1-thread-1] (TableMetadata.java:68) - HHH000108: Foreign keys: []
+Oct 26,2014 13:32:52.758  INFO [pool-1-thread-1] (TableMetadata.java:69) - HHH000126: Indexes: [sys_idx_sys_pk_10499_10500]
+Oct 26,2014 13:32:52.758  INFO [pool-1-thread-1] (SchemaUpdate.java:240) - HHH000232: Schema update complete
+Oct 26,2014 13:32:52.789  INFO [pool-1-thread-1] (DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@23d251a6: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,playerDao,dataSource,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Oct 26,2014 13:32:53.226  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - Query with TransactionId: 1 is completed in 2207miliseconds
+Oct 26,2014 13:32:53.226  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:22) - OUT-Emre(1:Username is invalid:-1:1.0:-1)
+Oct 26,2014 13:32:53.242  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-PLAYER_A(1:50.0)
+Oct 26,2014 13:32:53.548  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - Query with TransactionId: 1 is completed in 306miliseconds
+Oct 26,2014 13:32:53.548  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:22) - OUT-PLAYER_A(1:Operation has been successfully done:15:50.0:565.0)
+Oct 26,2014 13:32:53.555  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:16) - IN-PLAYER_B(1:-1000.0)
+Oct 26,2014 13:32:53.666  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:21) - Query with TransactionId: 1 is completed in 111miliseconds
+Oct 26,2014 13:32:53.666  INFO [pool-1-thread-1] (WalletServiceEndpoint.java:22) - OUT-PLAYER_B(1:There is not enough money in players balance:2:-1000.0:150.25)
+Oct 26,2014 13:33:45.011  INFO [Thread-3] (Server.java:51) - Number of Processed Queries:3
+Oct 26,2014 13:33:45.011  INFO [Thread-3] (Server.java:52) - Minimum Query Time:111miliseconds
+Oct 26,2014 13:33:45.011  INFO [Thread-3] (Server.java:53) - Maximum Query Time::2207miliseconds
+Oct 26,2014 13:33:45.011  INFO [Thread-3] (Server.java:54) - Average Query Time::874miliseconds
+Oct 26,2014 13:34:45.023  INFO [Thread-3] (Server.java:51) - Number of Processed Queries:3
+Oct 26,2014 13:34:45.023  INFO [Thread-3] (Server.java:52) - Minimum Query Time:111miliseconds
+Oct 26,2014 13:34:45.023  INFO [Thread-3] (Server.java:53) - Maximum Query Time::2207miliseconds
+Oct 26,2014 13:34:45.023  INFO [Thread-3] (Server.java:54) - Average Query Time::874miliseconds
+Oct 26,2014 13:51:47.020  INFO [pool-1-thread-1] (Server.java:45) - IN-Emre( 1 : 1.0 )
+Oct 26,2014 13:51:47.130  INFO [pool-1-thread-1] (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1cadc928: startup date [Sun Oct 26 13:51:47 EET 2014]; root of context hierarchy
+Oct 26,2014 13:51:47.239  INFO [pool-1-thread-1] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [applicationContext.xml]
+Oct 26,2014 13:51:47.598  INFO [pool-1-thread-1] (DriverManagerDataSource.java:153) - Loaded JDBC driver: org.hsqldb.jdbcDriver
+Oct 26,2014 13:51:47.645  INFO [pool-1-thread-1] (LocalContainerEntityManagerFactoryBean.java:285) - Building JPA container EntityManagerFactory for persistence unit 'jpaData'
+Oct 26,2014 13:51:47.847  INFO [pool-1-thread-1] (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Oct 26,2014 13:51:47.847  INFO [pool-1-thread-1] (Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+Oct 26,2014 13:51:47.847  INFO [pool-1-thread-1] (Environment.java:239) - HHH000206: hibernate.properties not found
+Oct 26,2014 13:51:47.847  INFO [pool-1-thread-1] (Environment.java:342) - HHH000021: Bytecode provider name : javassist
+Oct 26,2014 13:51:47.879  INFO [pool-1-thread-1] (Ejb3Configuration.java:528) - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaData
+	...]
+Oct 26,2014 13:51:48.082  INFO [pool-1-thread-1] (ConnectionProviderInitiator.java:188) - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Oct 26,2014 13:51:48.364  INFO [pool-1-thread-1] (Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+Oct 26,2014 13:51:48.395  INFO [pool-1-thread-1] (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Oct 26,2014 13:51:48.410  INFO [pool-1-thread-1] (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+Oct 26,2014 13:51:48.613  INFO [pool-1-thread-1] (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+Oct 26,2014 13:51:48.613  INFO [pool-1-thread-1] (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+Oct 26,2014 13:51:48.769  INFO [pool-1-thread-1] (SchemaUpdate.java:205) - HHH000396: Updating schema
+Oct 26,2014 13:51:50.108  INFO [pool-1-thread-1] (TableMetadata.java:65) - HHH000261: Table found: PUBLIC.PUBLIC.PLAYER
+Oct 26,2014 13:51:50.108  INFO [pool-1-thread-1] (TableMetadata.java:66) - HHH000037: Columns: [balance, username, balance_version]
+Oct 26,2014 13:51:50.124  INFO [pool-1-thread-1] (TableMetadata.java:68) - HHH000108: Foreign keys: []
+Oct 26,2014 13:51:50.124  INFO [pool-1-thread-1] (TableMetadata.java:69) - HHH000126: Indexes: [sys_idx_sys_pk_10499_10500]
+Oct 26,2014 13:51:50.124  INFO [pool-1-thread-1] (SchemaUpdate.java:240) - HHH000232: Schema update complete
+Oct 26,2014 13:51:50.156  INFO [pool-1-thread-1] (DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@759c62bb: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,playerDao,dataSource,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Oct 26,2014 13:51:50.562  INFO [pool-1-thread-1] (Server.java:35) - Query with TransactionId: 1 is completed in 3527miliseconds
+Oct 26,2014 13:51:50.562  INFO [pool-1-thread-1] (Server.java:45) - OUT-Emre( 1 : Username is invalid : -1 : 1.0 : -1 )
+Oct 26,2014 13:51:50.577  INFO [pool-1-thread-1] (Server.java:45) - IN-PLAYER_A( 1 : 50.0 )
+Oct 26,2014 13:51:50.936  INFO [pool-1-thread-1] (Server.java:35) - Query with TransactionId: 1 is completed in 359miliseconds
+Oct 26,2014 13:51:50.936  INFO [pool-1-thread-1] (Server.java:45) - OUT-PLAYER_A( 1 : Operation has been successfully done : 16 : 50.0 : 615.0 )
+Oct 26,2014 13:51:50.936  INFO [pool-1-thread-1] (Server.java:45) - IN-PLAYER_B( 1 : -1000.0 )
+Oct 26,2014 13:51:51.064  INFO [pool-1-thread-1] (Server.java:35) - Query with TransactionId: 1 is completed in 128miliseconds
+Oct 26,2014 13:51:51.064  INFO [pool-1-thread-1] (Server.java:45) - OUT-PLAYER_B( 1 : There is not enough money in players balance : 2 : -1000.0 : 150.25 )
+Oct 26,2014 13:51:58.460  INFO [pool-1-thread-1] (Server.java:45) - IN-Emre( 1 : 1.0 )
+Oct 26,2014 13:51:58.586  INFO [pool-1-thread-1] (Server.java:35) - Query with TransactionId: 1 is completed in 126miliseconds
+Oct 26,2014 13:51:58.586  INFO [pool-1-thread-1] (Server.java:45) - OUT-Emre( 1 : Username is invalid : -1 : 1.0 : -1 )
+Oct 26,2014 13:51:58.586  INFO [pool-1-thread-1] (Server.java:45) - IN-PLAYER_A( 1 : 50.0 )
+Oct 26,2014 13:51:58.915  INFO [pool-1-thread-1] (Server.java:35) - Query with TransactionId: 1 is completed in 329miliseconds
+Oct 26,2014 13:51:58.915  INFO [pool-1-thread-1] (Server.java:45) - OUT-PLAYER_A( 1 : Operation has been successfully done : 17 : 50.0 : 665.0 )
+Oct 26,2014 13:51:58.915  INFO [pool-1-thread-1] (Server.java:45) - IN-PLAYER_B( 1 : -1000.0 )
+Oct 26,2014 13:51:59.024  INFO [pool-1-thread-1] (Server.java:35) - Query with TransactionId: 1 is completed in 109miliseconds
+Oct 26,2014 13:51:59.024  INFO [pool-1-thread-1] (Server.java:45) - OUT-PLAYER_B( 1 : There is not enough money in players balance : 2 : -1000.0 : 150.25 )
+Oct 26,2014 13:52:38.971  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 13:52:38.971  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 13:52:38.971  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 13:52:38.971  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 13:53:38.983  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 13:53:38.983  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 13:53:38.983  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 13:53:38.983  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 13:54:38.984  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 13:54:38.984  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 13:54:38.984  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 13:54:38.984  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 13:55:38.992  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 13:55:38.992  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 13:55:38.992  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 13:55:38.992  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 13:56:38.994  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 13:56:38.994  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 13:56:38.994  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 13:56:38.994  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 13:57:39.006  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 13:57:39.006  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 13:57:39.006  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 13:57:39.006  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 13:58:39.006  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 13:58:39.006  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 13:58:39.006  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 13:58:39.006  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 13:59:39.010  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 13:59:39.010  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 13:59:39.010  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 13:59:39.010  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:00:39.021  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:00:39.021  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:00:39.021  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:00:39.021  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
