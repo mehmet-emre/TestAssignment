@@ -353,3 +353,71 @@ Oct 26,2014 14:04:39.062  INFO [Thread-3] (Server.java:71) - Number of Processed
 Oct 26,2014 14:04:39.062  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
 Oct 26,2014 14:04:39.062  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
 Oct 26,2014 14:04:39.062  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:05:39.075  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:05:39.075  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:05:39.075  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:05:39.075  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:06:39.089  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:06:39.089  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:06:39.089  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:06:39.089  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:07:39.096  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:07:39.096  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:07:39.096  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:07:39.096  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:08:39.106  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:08:39.106  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:08:39.106  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:08:39.106  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:09:39.106  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:09:39.106  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:09:39.106  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:09:39.106  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:10:39.107  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:10:39.107  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:10:39.107  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:10:39.107  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:11:39.107  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:11:39.107  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:11:39.107  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:11:39.107  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:12:39.107  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:12:39.107  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:12:39.107  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:12:39.107  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:13:39.108  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:13:39.109  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:13:39.109  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:13:39.109  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:14:39.109  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:14:39.109  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:14:39.109  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:14:39.109  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:15:39.110  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:15:39.110  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:15:39.110  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:15:39.110  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:16:39.110  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:16:39.110  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:16:39.111  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:16:39.111  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:17:39.112  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:17:39.113  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:17:39.113  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:17:39.113  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:18:39.113  INFO [Thread-3] (Server.java:71) - Number of Processed Queries:6
+Oct 26,2014 14:18:39.113  INFO [Thread-3] (Server.java:72) - Minimum Query Time:109 miliseconds
+Oct 26,2014 14:18:39.113  INFO [Thread-3] (Server.java:73) - Maximum Query Time:3527 miliseconds
+Oct 26,2014 14:18:39.113  INFO [Thread-3] (Server.java:74) - Average Query Time:762 miliseconds
+Oct 26,2014 14:20:19.733  INFO [Thread-3] (Server.java:70) - Number of Processed Queries:0
+Oct 26,2014 14:20:19.736  INFO [Thread-3] (Server.java:71) - Minimum Query Time: 0 miliseconds
+Oct 26,2014 14:20:19.736  INFO [Thread-3] (Server.java:72) - Maximum Query Time: 0 miliseconds
+Oct 26,2014 14:20:19.737  INFO [Thread-3] (Server.java:73) - Average Query Time: 0 miliseconds
+Oct 26,2014 14:21:19.737  INFO [Thread-3] (Server.java:70) - Number of Processed Queries:0
+Oct 26,2014 14:21:19.737  INFO [Thread-3] (Server.java:71) - Minimum Query Time: 0 miliseconds
+Oct 26,2014 14:21:19.738  INFO [Thread-3] (Server.java:72) - Maximum Query Time: 0 miliseconds
+Oct 26,2014 14:21:19.738  INFO [Thread-3] (Server.java:73) - Average Query Time: 0 miliseconds
+Oct 26,2014 14:22:19.739  INFO [Thread-3] (Server.java:70) - Number of Processed Queries:0
+Oct 26,2014 14:22:19.739  INFO [Thread-3] (Server.java:71) - Minimum Query Time: 0 miliseconds
+Oct 26,2014 14:22:19.739  INFO [Thread-3] (Server.java:72) - Maximum Query Time: 0 miliseconds
+Oct 26,2014 14:22:19.739  INFO [Thread-3] (Server.java:73) - Average Query Time: 0 miliseconds
