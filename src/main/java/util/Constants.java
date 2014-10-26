@@ -11,6 +11,7 @@ public class Constants {
 	 * constants
 	 */
 	public static String SERVER_ENDPOINT;
+	public static String ACCESS_KEY;
 	
 	/*
 	 * error code descriptions
@@ -19,7 +20,7 @@ public class Constants {
 	public static String E000001; // invalid username
 	public static String E000002; // not enough balance
 	public static String E000003; // unknown error
-	
+	public static String E000004; // unauthorized Access
 	public static void loadProperties() throws IOException{
 		Properties prop = new Properties();
 		InputStream input = null;
@@ -34,7 +35,8 @@ public class Constants {
 			E000001 = prop.getProperty("E000001");
 			E000002 = prop.getProperty("E000002");
 			E000003 = prop.getProperty("E000003");
-
+			E000004 = prop.getProperty("E000004");
+			ACCESS_KEY = prop.getProperty("ACCESS_KEY");
 	 
 		} finally {
 			if (input != null) {
